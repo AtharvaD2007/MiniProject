@@ -1,0 +1,132 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: beige;
+            font-family: Georgia;
+        }
+        .top-box{
+            position: absolute;
+            top: 20px;
+            left: 300px;
+            background-color: #959536;
+            padding: 15px 8cqh;
+            border-radius: 35px;
+            color: white;
+            z-index: 2;
+            margin-left: 100px;
+        }
+
+        .top-box a{
+            color: white;
+            text-decoration: none;
+            
+            font-size: 18px;
+        }
+
+        .top-box a:hover{
+            text-decoration: underline;
+        }
+
+        .title{
+            font-size: 26px;
+            font-weight: bold;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        .slider-container{
+            width: 100%;
+            height: 800px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+
+        .slide{
+            width: 100%;
+            height: 800px;
+            position: absolute;
+            opacity: 0;
+            animation: fade 9s infinite;
+        }
+
+        .slide:nth-child(1){ animation-delay: 0s; }
+        .slide:nth-child(2){ animation-delay: 3s; }
+        .slide:nth-child(3){ animation-delay: 6s; }
+        .slide:nth-child(4){animation-delay: 9s;}
+
+        @keyframes fade{
+            0%{opacity:0;}
+            15%{opacity:1;}
+            35%{opacity:1;}
+            50%{opacity:0;}
+            100%{opacity:0;}
+        }
+        .footer-text{
+            position: absolute;
+            bottom: 100px;
+            left: 50px;
+            color: white;
+            font-size: 38px;
+            font-style: italic;
+            z-index: 2;
+        }
+        button{
+            margin-top: 20px;
+            padding: 10px 25px;
+            font-size: 18px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            background-color: rgb(204, 223, 176);
+            color: black;
+        }
+
+        button:hover{
+            background-color: rgb(33, 45, 7);
+            color: white;
+        }
+        button a{
+            text-decoration: none;
+            color: black;
+        }
+        button a:hover{
+            color: white;
+        }
+        .home{
+            padding-left:0px;
+            padding-right: 30px;
+            margin-left: 0px;
+            
+        }
+        .resource{
+            padding-left: 0px;
+            padding-right: 40px;
+            margin-left: 0px;
+        }
+        .about{
+            padding-right: 0px;
+            padding-left: 40px;
+            margin-right: 0px;
+        }
+        .contact{
+            padding-right: 0px;
+            padding-left: 30px;
+            margin-right: 0px;
+        }
+        footer{
+        background-color: #636B2F;
+        color: white;
+        text-align: center;
+        padding: 40px;
+        font-size: 12px;
+        }
+        
+
+
+
+        
+

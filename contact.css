@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+
+
+body {
+
+    line-height: 1.6;
+    background-color: beige;
+}
+
+.top-box{
+            position: absolute;
+            top: 20px;
+            left: 300px;
+            background-color: #959536;
+            padding: 9px 8cqh;
+            border-radius: 35px;
+            color: white;
+            z-index: 2;
+            margin-left: 100px;
+        }
+
+        .top-box a{
+            color: white;
+            text-decoration: none;
+            
+            font-size: 18px;
+        }
+
+        .top-box a:hover{
+            text-decoration: underline;
+        }
+
+        .title{
+            font-size: 26px;
+            font-weight: bold;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        .home{
+            padding-left:0px;
+            padding-right: 30px;
+            margin-left: 0px;
+            
+        }
+        .resource{
+            padding-left: 0px;
+            padding-right: 40px;
+            margin-left: 0px;
+        }
+        .about{
+            padding-right: 0px;
+            padding-left: 40px;
+            margin-right: 0px;
+        }
+        .contact{
+            padding-right: 0px;
+            padding-left: 30px;
+            margin-right: 0px;
+        }
+
+.contact-section {
+    padding: 100px;
+    padding-left: 650px;
+    background-color: beige;
+}
+
+.contact-container {
+    display: flex;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: beige;
+    margin-bottom: 100px;
+}
+
+.contact-info {
+    padding-right: 30px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+.contact-info h1 {
+    font-size: 36px;
+    color: #2E2B26;
+    margin-bottom:40px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+}
+
+.info-block {
+    margin-bottom: 30px;
+}
+.info-block:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.info-block h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.info-block p {
+    font-size: 20px;
+}
+
+.contact-form {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    background-color: #f2f2c2;
+    border: 2px solid #4b4b1f;
+    padding: 40px;;
+    border-radius: 35px;
+    margin: 40px;
+}
+
+.contact-form:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    transform: translateY(-3px);
+}
+
+.contact-section{
+    text-align: center;
+    color: #24270f;
+}
+
+.contact-section p {
+    text-align: center;
+    color: #1c160b;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+form {
+    padding: 5px;
+    font-size: 20px;
+    margin: auto;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 20px;
+    color: #8C7C63;
+}
+
+input, textarea, select {
+    padding: 0.9rem 1rem;
+    border: 1px solid #CBBFA9;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #3E3B32;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.faq-wrapper {
+    font-size: 40px;
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color:#f2f2c2;
+    border-radius: 40px;
+    border: 2px solid #4b4b1f;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.faq-wrapper:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 40px;
+    color: #777E49;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #CBBFA9;
+    padding: 18px 0;
+}
+
+.faq-question {
+    font-size: 25px;
+    font-weight: normal;
+    color: #3E3B32;
+    margin-bottom: 8px;
+}
+
+.faq-answer {
+    font-size: 20px;
+    color: #8C7C63;
+    line-height: 2.0;
+}
+
+button.submit-btn {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #9A9B3D;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button.submit-btn:hover {
+    background-color: #777E49;
+    transition: background-color 0.3s ease;
+}
+
+footer{
+        background-color: #636B2F;
+        color: lightgray;
+        text-align: center;
+        padding: 40px;
+        font-size: 12px;
+        }

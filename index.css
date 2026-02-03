@@ -1,0 +1,209 @@
+*{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: beige;
+            font-family: Georgia;
+        }
+        
+        .top-box{
+            position: absolute;
+            top: 20px;
+            left: 300px;
+            background-color: #959536;
+            padding: 15px 8cqh;
+            border-radius: 35px;
+            color: white;
+            z-index: 2;
+            margin-left: 100px;
+        }
+
+        .top-box a{
+            color: white;
+            text-decoration: none;
+            
+            font-size: 18px;
+        }
+
+        .top-box a:hover{
+            text-decoration: underline;
+        }
+
+        .title{
+            font-size: 26px;
+            font-weight: bold;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        
+        
+        
+        
+   
+        .home{
+            padding-left:0px;
+            padding-right: 30px;
+            margin-left: 0px;
+            
+        }
+        .resource{
+            padding-left: 0px;
+            padding-right: 40px;
+            margin-left: 0px;
+        }
+        .about{
+            padding-right: 0px;
+            padding-left: 40px;
+            margin-right: 0px;
+        }
+        .contact{
+            padding-right: 0px;
+            padding-left: 30px;
+            margin-right: 0px;
+        }
+        .Content{
+            padding: 60px 120px;
+        }
+
+        .c1{
+            margin-bottom: 60px;
+            
+            padding:30px;
+            border-radius: 20px;
+
+        }
+
+        .c1 h2{
+            text-align: center;
+            color:#292f06;
+            font-size: 40px;
+            padding-top: 50px;
+        }
+        .c1 h4{
+            text-align: center;
+            padding: 20px;
+            color: #292f06;
+            padding-top: 10px;
+            font-size: 20px;
+        }
+        .c1 .ul1 li{
+            background-color: #f2f2c2;
+            border: 2px solid #4b4b1f;
+            margin:30px;
+            padding: 50px;
+            list-style-type: none;
+            border-radius: 20px;
+            font-size: larger;
+
+
+        }
+        li:hover{
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+        }
+
+
+
+        .rescue{
+            display: flex;
+            gap: 100px;
+            margin-top: 30px;
+        }
+
+        .rescue-text{
+            width: 50%;
+            font-size: 20px;
+            line-height: 1.6;
+        }
+
+        .rescue img{
+            width: 300px;
+            border-radius: 15px;
+        }
+
+
+
+        .c2{
+            margin-bottom: 70px;
+            color: rgb(34, 60, 8);
+        }
+        .c2 h2{
+            font-size: 35px;
+            
+        }
+
+        .stats{
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .stat-box{
+            background-color: #BAC095;
+            padding: 25px;
+            border-radius: 20px;
+            width: 400px;
+            text-align: center;
+            font-size: 20px;
+            border: 2px solid #4b4b1f;
+            transition: transform 0.3s ease-in-out;
+
+            
+        }
+        .stat-box:hover{
+            transform: scale(1.02);
+        }
+        .help-card:hover{
+            transition:ease-out;
+            transform: scale(0.8);
+        }
+        .stat-box img{
+            width:200px;
+            padding: 20px;
+            border-radius: 5%;
+            height: 200px;
+        }
+
+
+        .help-section{
+            background-color: #e3e3a9;
+            color: rgb(21, 38, 6);
+            padding: 60px 120px;
+            border-radius: 10px;
+            border:2px solid #4b4b1f;
+        }
+
+        .help-cards{
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+            
+        }
+        .help-section h2{
+            font-size: 30px;
+        }
+
+        .help-card{
+            background-color: #BAC095;
+            color: black;
+            padding: 25px;
+            
+            border-radius: 20px;
+            width: 320px;
+            text-align: center;
+            font-size: 18px;
+        }
+        footer{
+        background-color: #636B2F;
+        color: white;
+        text-align: center;
+        padding: 40px;
+        font-size: 12px;
+        }
+
+
+
+
+        
